@@ -233,8 +233,9 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
 
 .hero-inner {
   position: relative;
-  z-index: 2;
-  max-width: 620px;
+  z-index: 1;
+  max-width: 640px;
+  transform: translateX(-300px);
 }
 
 .hero-text h1 {
@@ -438,11 +439,11 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  font-size: 0.72rem;
+  font-size: 1.05rem;
   opacity: 0.75;
   white-space: nowrap;
 }
-.footer-credit img { height: 34px; width: auto; }
+.footer-credit img { height: 64px; width: auto; }
 
 /* =========================================================
    Scroll reveal animation

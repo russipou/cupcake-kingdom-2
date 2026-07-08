@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cupcake Kingdom by Libby — Custom Decorated Cupcakes</title>
+  <meta name="description" content="Cupcake Kingdom by Libby — hand-baked, custom decorated cupcakes for birthdays, kiddush, bris, bar/bat mitzvah, anniversaries and every celebration.">
+
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ============================= NAV ============================= -->
+  <header class="site-nav">
+    <div class="nav-inner">
+      <a href="#home" class="brand">
+        <img src="assets/images/logo.jpg" alt="Cupcake Kingdom by Libby logo">
+        <span class="brand-text-group">
+          <span class="brand-name">Cupcake Kingdom</span>
+          <span class="brand-tagline">Cupcakes by Libby</span>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        
+        <li><a href="#gallery">My Cupcakes</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="home">
+    <div class="hero-bg" style="background-image:url('assets/images/hero-bg.jpg');"></div>
+    <div class="hero-fade"></div>
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">🎉 Cupcakes by Libby</span>
+        <h1>Life is better <span>with cupcakes</span></h1>
+        <p>Hand-baked and hand-decorated with care and precision — custom cupcakes for birthdays, kiddush, bris, bar/bat mitzvahs, anniversaries and every celebration in between.</p>
+        <div class="hero-actions">
+          <a href="#gallery" class="btn btn-pink">See My Work</a>
+          <a href="#contact" class="btn btn-outline-dark">Get In Touch</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="scallop-divider" aria-hidden="true">
+      <svg viewBox="0 0 1180 30" preserveAspectRatio="none">
+        <path fill="none" stroke="#FFC94A" stroke-width="2" stroke-linecap="round" d="M0,15 Q30,0 60,15 T120,15 T180,15 T240,15 T300,15 T360,15 T420,15 T480,15 T540,15 T600,15 T660,15 T720,15 T780,15 T840,15 T900,15 T960,15 T1020,15 T1080,15 T1140,15 T1180,15"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ============================= ABOUT ============================= -->
+  <section id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">👑 Welcome to Cupcake Kingdom</span>
+        <h2>Every cupcake, made with care</h2>
+        <p>We decorate custom cupcakes for any event — birthday parties, kiddush, bris, bar and bat mitzvahs, anniversaries and more. Every single cupcake is hand-baked from scratch and hand-decorated to match your celebration.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card reveal">
+          <span class="emoji">✋</span>
+          <h3>Hand-Baked</h3>
+          <p>Every batch is baked fresh from scratch — nothing pre-made, nothing rushed.</p>
+        </div>
+        <div class="about-card reveal">
+          <span class="emoji">🎨</span>
+          <h3>Custom Decorated</h3>
+          <p>Colours, toppers and themes designed around your event, down to the last detail.</p>
+        </div>
+        <div class="about-card reveal">
+          <span class="emoji">💯</span>
+          <h3>Made With Precision</h3>
+          <p>Careful, consistent decorating so every cupcake in the box looks its best.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="scallop-divider" aria-hidden="true">
+      <svg viewBox="0 0 1180 30" preserveAspectRatio="none">
+        <path fill="none" stroke="#22CFCF" stroke-width="2" stroke-linecap="round" d="M0,15 Q30,30 60,15 T120,15 T180,15 T240,15 T300,15 T360,15 T420,15 T480,15 T540,15 T600,15 T660,15 T720,15 T780,15 T840,15 T900,15 T960,15 T1020,15 T1080,15 T1140,15 T1180,15"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ============================= GALLERY / SEE MY WORK ============================= -->
+  <section id="gallery" class="gallery">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🧁 See My Work</span>
+        <h2>A batch for every occasion</h2>
+        <p>Click the arrows to browse — every photo here is from a real Cupcake Kingdom order.</p>
+      </div>
+
+      <div
+        class="carousel reveal"
+        id="workCarousel"
+        tabindex="0"
+        data-photos='[
+          {"src":"assets/images/work-01-movie-night.png","alt":"Red frosted cupcakes with movie night, popcorn and admit one toppers","caption":"Movie Night Cupcakes"},
+          {"src":"assets/images/work-02-mazel-tov.jpg","alt":"Pink cupcakes in a ribboned Cupcake Kingdom gift box reading Mazel Tov 12","caption":"Mazel Tov Cupcakes"},
+          
+          {"src":"assets/images/work-04-graduation.jpg","alt":"Graduation cupcakes with mortarboard cap toppers and 2023 diploma toppers","caption":"Year 6 Graduation Cupcakes"},
+          {"src":"assets/images/work-05-mermaid.jpg","alt":"Purple frosted cupcakes with mermaid tail, seahorse and starfish toppers","caption":"Under the Sea Mermaid Cupcakes"},
+          
+          {"src":"assets/images/work-07-pink-pearl.jpg","alt":"Pink and ivory swirled cupcakes with sugar pearls in a gift box","caption":"Pink &amp; Ivory Pearl Cupcakes"},
+          {"src":"assets/images/work-08-ballet.png","alt":"Cream frosted cupcakes topped with pink fondant ballet shoes","caption":"Ballet Shoes Cupcakes"}
+        ]'
+      >
+        <button class="carousel-arrow" id="carouselPrevBtn" aria-label="Previous photo">&#8249;</button>
+
+        <div class="carousel-stage">
+          <div class="carousel-photo carousel-side">
+            <img id="carouselPrev" src="" alt="">
+          </div>
+          <div class="carousel-photo carousel-main">
+            <img id="carouselMain" src="" alt="">
+          </div>
+          <div class="carousel-photo carousel-side">
+            <img id="carouselNext" src="" alt="">
+          </div>
+        </div>
+
+        <button class="carousel-arrow" id="carouselNextBtn" aria-label="Next photo">&#8250;</button>
+      </div>
+
+      <p class="carousel-caption" id="carouselCaption"></p>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="scallop-divider" aria-hidden="true">
+      <svg viewBox="0 0 1180 30" preserveAspectRatio="none">
+        <path fill="none" stroke="#FF3E9A" stroke-width="2" stroke-linecap="round" d="M0,15 Q30,0 60,15 T120,15 T180,15 T240,15 T300,15 T360,15 T420,15 T480,15 T540,15 T600,15 T660,15 T720,15 T780,15 T840,15 T900,15 T960,15 T1020,15 T1080,15 T1140,15 T1180,15"/>
+      </svg>
+    </div>
+  </div>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">💌 Contact Us</span>
+        <h2>Let's get baking</h2>
+        <p>Reach out any way that suits you and we'll help design the perfect batch.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-cards reveal">
+          <div class="contact-card">
+            <div class="icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p><a href="mailto:orders.cupcakekingdom@gmail.com">orders.cupcakekingdom@gmail.com</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p><a href="tel:+447956033919">07956 033919</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="icon">💬</div>
+            <div>
+              <h4>WhatsApp</h4>
+              <p><a href="https://wa.me/447956033919" target="_blank" rel="noopener">Message us on WhatsApp →</a></p>
+            </div>
+          </div>
+          <div class="contact-card">
+            <div class="icon">🎉</div>
+            <div>
+              <h4>Any Occasion</h4>
+              <p>Birthday parties, kiddush, bris, bar/bat mitzvah, anniversaries, and more.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= FOOTER ============================= -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-main">
+        <img src="assets/images/logo.jpg" alt="Cupcake Kingdom by Libby logo">
+        <span class="footer-brand">Cupcake Kingdom <span style="opacity:0.75;">· Cupcakes by Libby</span></span>
+        <span class="footer-sep">|</span>
+        <span class="footer-copy">&copy; 2026 Cupcake Kingdom by Libby. All rights reserved.</span>
+      </div>
+      <div class="footer-credit">
+        <img src="assets/images/webelop-logo.jpg" alt="Webelop logo">
+        <span>Website by <a href="https://webeloper-eight.vercel.app/"><u>Webelop</u></a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
