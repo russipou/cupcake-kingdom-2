@@ -256,7 +256,7 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
   max-width: 480px;
 }
 
-.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; justify-content:center; }
+.hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; justify-content:left; }
 
 /* =========================================================
    ABOUT
