@@ -483,8 +483,8 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
   }
   .hero-bg { background-position: center 30%; }
   .about-grid { grid-template-columns: 1fr; }
-  .carousel-main { width: 260px; height: 330px; }
-  .carousel-side { width: 90px; height: 116px; }
+  .carousel-main { width: 330px; height: 260px; }
+  .carousel-side { width: 0px; height: 0px; }
 }
 
 @media (max-width: 640px) {
