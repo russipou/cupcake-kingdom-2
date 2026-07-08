@@ -471,7 +471,7 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
    Responsive
    ========================================================= */
 @media (max-width: 940px) {
-  .hero-inner { text-align: center; }
+  .hero-inner { text-align: center; margin-left: auto; margin-right: auto; }
   .hero-text p { margin-left: auto; margin-right: auto; }
   .hero-actions { justify-content: center; }
   .hero-fade {
