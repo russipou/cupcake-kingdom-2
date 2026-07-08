@@ -235,7 +235,7 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
   position: relative;
   z-index: 1;
   max-width: 640px;
-  transform: translateX(-300px);
+  transform: translateX(-100px);
 }
 
 .hero-text h1 {
