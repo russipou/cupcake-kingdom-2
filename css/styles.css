@@ -508,7 +508,8 @@ section { padding: 5.5rem 0; scroll-margin-top: 88px; }
   .brand-name { font-size: 1.15rem; }
   section { padding: 3.5rem 0; }
   .carousel { gap: 0.5rem; }
-  .carousel-main { width: 300px; height: 236px; }
+  .carousel-main { width: 300px; height: 236px; margin: 0 auto; }
   .carousel-side { width: 0px; height: 0px; }
   .contact-cards { grid-template-columns: 1fr; }
+  .container { max-width: 360px; margin: 0 auto;}
 }
